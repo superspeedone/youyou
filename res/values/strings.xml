@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- system -->
+    <string name="app_name">有农场</string>
+    <string name="net_error">当前网络不可用，请先连接Internet！</string>
+	<string name="menu_exit">退出</string>
+	<string name="about_comp">北京有农场股份有限公司</string>
+	<string name="isloading">拼命加载中...</string>
+	<string name="empty_string"></string>
+	<string name="software_update">软件版本更新</string>
+	<string name="download">下载</string>
+    <string name="download_fail">下载安装包失败</string>
+    <string name="hide">隐藏</string>
+	
+    <!-- menu -->
+    <string name="system_sureifexit">是否确定要退出有农场</string>
+    <string name="app_cancle">取消</string>
+    <string name="app_change_user">注销用户</string>
+    <string name="app_exit_user">退出</string>
+    
+    <!-- login and register -->
+    <string name="et_account_hint">手机号</string>
+    <string name="et_password_hint">密码</string>
+    <string name="register">新用户</string>
+    <string name="login">登陆</string>
+    <string name="forget_password">忘记密码?</string>
+	<string name="my_account_title">我的账户</string>
+	
+	<!-- bottombar -->
+	<string name="menu_home">主页</string>
+	<string name="menu_category">分类</string>
+	<string name="menu_order">买单</string>
+	<string name="menu_personal">我的</string>
+    
+    <!-- Refresh -->
+    <string name="tv_loading">正加载,请稍后...</string>
+    <string name="no_data">网络异常...</string>
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">更    多</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开立即刷新</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新&#8230;</string>
+    <string name="p2refresh_doing_end_refresh">加载中&#8230;</string>
+    <string name="p2refresh_refresh_lasttime">最近更新&#160;&#058;&#160;</string>
+    
+    <!-- home -->
+    <string name="search">输入商户名、团名</string>	
+	<string name="activity_city">定位城市</string>
+	<string name="default_city">上海</string>
+	
+	<!-- category -->
+	<string name="activity_shopinfo">代金券信息</string>
+    <string name="voucher_purchase">代金券购买</string>
+    
+    <!-- order -->
+    <string name="my_ordr_title">全部订单</string>
+    <string name="activity_pay_title">我要买单</string>
+    <string name="scan_order">扫码买单</string>
+    <string name="scan_order_des">扫码小票后店铺支付二维码</string>
+    
+    <!-- setting -->
+    <string name="custom_setting">设置</string>
+    
+    <!-- test -->
+    <string name="tv_store_name">代官山（五角场店）</string>
+    <string name="tv_score">4.5分</string>
+    <string name="tv_shop_lacation">[五角场街道] 2km</string>
+    <string name="tv_shop_activity">2店通用，不限使用张数</string>
+    <string name="tv_standared_price">60元</string>
+    <string name="tv_discount_price">50元</string>
+    <string name="tv_saled_amount">已售30张</string>
+    <string name="tv_order_shop">---  代官山（五角场店）   ---</string>
+    <string name="tv_shop_address">上海市杨浦区五角场邯郸路99号。。。2km</string>
+    
+</resources>

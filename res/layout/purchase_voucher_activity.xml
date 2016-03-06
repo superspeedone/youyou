@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey" >
+
+    <com.youno.view.TitleBarView 
+        android:id="@+id/title_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <com.youno.view.CustomerScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                
+                <RelativeLayout
+                    android:id="@+id/id_voucher_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/selector_white_grey" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/line" />
+
+                    <TextView
+                        android:id="@+id/tv_cache_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:text="100元代金券仅售80元"
+                        android:textColor="@color/title_color"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/line" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/selector_white_grey" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/line" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:text="单   价"
+                        android:textColor="@color/title_color"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_voucher_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="25dp"
+                        android:text="80" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:text="元" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/line" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/selector_white_grey" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:text="份    数"
+                        android:textColor="@color/title_color"
+                        android:textSize="16sp" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="80dp"
+                        android:text="可购20张"
+                        android:textColor="@color/title_color"
+                        android:textSize="13sp" />
+                    
+                    <Button
+                        android:id="@+id/btn_dish_item_dec"
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="83dp"
+                        android:background="@drawable/btn_dish_item_dec"/>
+                    
+                    <TextView
+                        android:id="@+id/et_voucher_purcharse_counts"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="34dp"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/sky_blue"
+                        android:background="@drawable/input_shape"/>
+                    
+                    <Button
+                        android:id="@+id/btn_dish_item_inc"
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/btn_dish_item_inc"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/line" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/selector_white_grey" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:text="合    计"
+                        android:textColor="@color/title_color"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_voucher_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="25dp"
+                        android:text="0"
+                        android:textColor="@color/red" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:text="元"
+                        android:textColor="@color/red" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/line" />
+                </RelativeLayout>
+                
+                <RelativeLayout
+                    android:id="@+id/id_catch_clean"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/selector_white_grey" >
+
+                    <TextView
+                        android:id="@+id/tv_contact_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:text="联系电话"
+                        android:textColor="@color/title_color"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tv_contact_phone"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="13127845882"
+                        android:phoneNumber="true"
+                        android:textColor="@color/sky_blue"
+                        android:background="@drawable/input_shape_transparent"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/line" />
+                </RelativeLayout>
+                                
+            </LinearLayout>
+            <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="20dp"
+		        android:layout_marginLeft="10dp"
+		        android:text="联系电话用于接收代金券系统通知，情保持手机畅通。"
+		        android:textColor="@color/dark_grey"
+		        android:textSize="12sp" />
+        </LinearLayout>
+    </com.youno.view.CustomerScrollView>
+    <RelativeLayout
+        android:id="@+id/layout_scan_order"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/sv_shopinfo"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.8"
+        android:background="@color/black" >
+
+        <TextView
+            android:id="@+id/tv_voucher_purchase_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="0"
+            android:textColor="@color/whites"
+            android:textSize="22sp"
+            android:layout_centerVertical="true" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_voucher_purchase_total"
+            android:layout_alignBottom="@+id/tv_voucher_purchase_total"
+            android:text="元"
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/common_constact"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="5dp" >
+
+            <Button
+                android:id="@+id/constact_group"
+                style="@style/common_button"
+                android:text="付      款"
+                android:textSize="16sp" />
+        </LinearLayout>
+        
+    </RelativeLayout>
+    
+</RelativeLayout>
