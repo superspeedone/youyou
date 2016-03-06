@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/detail_bgColor" >
+
+    <com.youno.view.TitleBarView 
+        android:id="@+id/title_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <com.emilsjolander.components.stickylistheaders.StickyListHeadersListView
+        android:id="@+id/list_city"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        android:cacheColorHint="@null"
+        android:clipToPadding="false"
+        android:divider="@color/line"
+        android:dividerHeight="0.5dp"
+        android:drawSelectorOnTop="true"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true"
+        android:listSelector="@color/transparent"
+        android:overScrollMode="never"
+        android:scrollbarStyle="outsideOverlay" />
+
+</RelativeLayout>

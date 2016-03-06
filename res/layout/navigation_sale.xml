@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/detail_bgColor" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/whites"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="手机买单"
+                    android:textColor="@color/orange"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="美食折上再减20元"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ad_kangshifu" />
+            </LinearLayout>
+            <View
+                android:layout_alignParentRight="true"
+		        android:layout_width="0.5dp"
+		        android:layout_height="match_parent"
+		        android:background="@color/line"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@color/whites"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="周末看片 "
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="6dp"
+                        android:text="复联之前看啥"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ad_fuchou" />
+                    <View
+				        android:layout_width="match_parent"
+				        android:layout_height="0.5dp"
+				        android:background="@color/line"
+				        android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="度假酒店"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="6dp"
+                        android:text="周末新玩法"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ad_hotel" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/whites"
+        android:layout_marginTop="10dp">
+      
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp" >
+	        <ImageView 
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/icon_follow_default"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热门餐厅在线派对"
+                android:textSize="16sp"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="3dp"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一大波火爆餐厅来袭，在线抢座不用等"
+                android:textSize="10sp"
+                android:textColor="@color/gray_font"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="5dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="442dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@color/whites"
+        android:layout_marginTop="10dp" >
+        
+        <TextView
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp" 
+	        android:layout_marginBottom="10dp"
+	        android:layout_marginLeft="10dp"
+	        android:text="猜你喜欢" 
+	        android:textColor="@color/zhuhong"
+	        android:textSize="15dip"/>
+        
+        <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.5dp"
+	        android:background="@color/line"/>
+        
+        <TextView
+            android:id="@+id/tv_guess_like_progress"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:text="拼命加载中。。。"
+            android:textColor="@color/dark_grey"
+            android:gravity="center_horizontal" ></TextView>
+        <ListView 
+            android:id="@+id/lv_guess_like"
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+        </ListView>
+    </LinearLayout>
+    
+     <TextView
+        android:id="@+id/tv_check_all_shop"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:text="查看全部" 
+        android:textColor="@color/sky_blue"
+        android:textSize="12dip"
+        android:background="@color/whites" />
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_near_store"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/tv_store_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tv_store_name"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_store_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp" >
+
+            <ImageView
+                android:id="@+id/img_score_1"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/icon_star_good_mini"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:id="@+id/img_score_2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/icon_star_good_mini"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:id="@+id/img_score_3"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/icon_star_good_mini"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:id="@+id/img_score_4"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/icon_star_null_mini_half"
+                android:contentDescription="@string/app_name" />
+
+            <ImageView
+                android:id="@+id/img_score_5"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/icon_star_null_mini"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_shop_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="2dp"
+                android:text="@string/tv_score"
+                android:textColor="@color/dark_grey"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_area_nearest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_store_name"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/tv_shop_lacation"
+            android:textColor="@color/dark_grey"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_near_store_info"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/selector_white_grey" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/line" />
+
+        <ImageView
+            android:id="@+id/iv_store_logo"
+            android:layout_width="75dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_launcher"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_activity_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/iv_store_logo"
+            android:text="@string/tv_shop_activity"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_standard_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@id/iv_store_logo"
+            android:text="@string/tv_standared_price"
+            android:textColor="@color/red"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_discount_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/tv_standard_price"
+            android:text="@string/tv_discount_price"
+            android:textColor="@color/dark_grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_saled_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_activity_des"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/tv_saled_amount"
+            android:textColor="@color/dark_grey"
+            android:textSize="12sp" />
+        
+    </RelativeLayout>
+
+</LinearLayout>
