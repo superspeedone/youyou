@@ -3,14 +3,14 @@
 *.ap_
 
 # Files for the Dalvik VM
-*.dex
+#*.dex
 
 # Java class files
 *.class
 
 # Generated files
-bin/
-gen/
+#bin/
+#gen/
 
 # Gradle files
 .gradle/
